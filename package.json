@@ -1,0 +1,28 @@
+{
+  "name": "upload-to-remote-server",
+  "version": "1.0.0",
+  "description": "In this project, I used python to send data read from a card to a server hosted on heroku",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peter-Mfitumukiza/upload-to-remote-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Peter-Mfitumukiza/upload-to-remote-server/issues"
+  },
+  "homepage": "https://github.com/Peter-Mfitumukiza/upload-to-remote-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0"
+  }
+}
